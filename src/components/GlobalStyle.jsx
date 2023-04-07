@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import 'modern-normalize'; 
+import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -15,4 +15,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-`; 
+`;

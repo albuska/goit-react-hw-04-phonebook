@@ -9,7 +9,6 @@ const LS_CONTACT_KEY = 'contacts';
 
 const useSavedLocalStorage = (key, defaultValue) => {
   const [state, setState] = useState(() => {
-
     return JSON.parse(window.localStorage.getItem(key)) ?? defaultValue;
   });
 
@@ -20,7 +19,6 @@ const useSavedLocalStorage = (key, defaultValue) => {
 };
 
 const App = () => {
-
   const [contacts, setContacts] = useSavedLocalStorage(LS_CONTACT_KEY, [
     { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
     { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },

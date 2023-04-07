@@ -6,7 +6,7 @@ export const ContactItem = ({ contact: { name, number } }) => {
     <>
       <Paragraph>
         {name}: {number}
-      </Paragraph> 
+      </Paragraph>
     </>
   );
 };
